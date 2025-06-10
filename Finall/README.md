@@ -1,18 +1,12 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-## Folder Structure
+Integer.MIN_VALUE
+es una constante en Java que representa el valor entero más pequeño que puede tener una variable de tipo int. 
 
-The workspace contains two folders by default, where:
+max empieza con el valor más bajo posible para un entero, así cualquier temperatura de la matriz será mayor que ese valor al comparar,
+x y y empiezan en 0 y van a guardar la posición (fila y columna) donde se encuentre la temperatura más alta ya para luego recorro toda la matriz y cada vez que encuentro una temperatura mayor que max actualizo max y también guardo la posición en x y y.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Al fnal regreso un arreglo con la posición [x, y] del equipo más caliente. Y eso es lo que haria este metodo lo especifico ya que el resto esta facil de entnder y pues si. Ya como ultima cosa solo puedo decir que fue un gran profesor la plena, fue un placer ver esta clase con usted. Sinceramente siento que aprendi bastante mucho mas que el semestre pasado jajaja, y pues nada la buena. Nos vemos en painbalt, preparese!!!
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
